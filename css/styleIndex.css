@@ -1,0 +1,663 @@
+.tamanoCarta {
+    width: 320px;
+  }
+  
+  .textos {
+    padding-top: 4rem;
+  }
+  
+  .espacioCartasAmarillas {
+    padding-top: 1.5rem;
+  }
+  .card-text {
+    text-align: text-justify;
+  }
+  
+  .parrafoIntroduccion {
+    font-family: "Prompt", sans-serif;
+    font-size: 30px;
+    padding: 6.25rem;
+  }
+  
+  .fondoAmarillo {
+    background-color: #f4d24a;
+  }
+  
+  .cambiarColor {
+    color: rgba(244, 210, 74);
+  }
+  
+  .botonContacto {
+    padding-top: 3rem;
+    text-align: center;
+    padding: 45px;
+  }
+  
+  .botonContactoDosFotos {
+    text-align: center;
+    text-align: top;
+  }
+  
+  .testimonio {
+    background-color: rgba(244, 210, 74, 0.1);
+    margin-top: 2rem;
+  }
+  
+  .piePagina {
+    background-color: rgba(244, 210, 74);
+  }
+  
+  .card-img-top {
+    height: 200px;
+  }
+  
+  .logoPiePagina {
+    width: 300px;
+    height: 90px;
+  }
+  
+  .testimonioImagen {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 80%;
+    width: 80%;
+  
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-size: 100% auto;
+  }
+  
+  .columnaTestimonio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navBarPrincipal {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  }
+  
+  .whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+  }
+  
+  .whatsapp-icon {
+    margin-top: 13px;
+  }
+  
+  .letraEncabezado {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+  }
+  
+  .tamano11 {
+    font-size: 0.8rem;
+  }
+  
+  .tamano12 {
+    font-size: 0.9rem;
+  }
+  
+  .tamano13 {
+    font-size: 1.1rem;
+  }
+  
+  .tamano15 {
+    font-size: 1.5rem;
+  }
+  
+  .tamano19 {
+    font-size: 2rem;
+  }
+  
+  .tamano26 {
+    font-size: 3.5rem;
+  }
+  
+  .cartaContenido {
+    font-size: 0.9rem;
+  }
+  
+  .tituloCarta {
+    font-size: 1.5rem;
+  }
+  
+  .listadoElemento {
+    font-size: 0.9rem;
+  }
+  
+  .letraRoboto {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .letraHeebo {
+    font-family: "Heebo", sans-serif;
+  }
+  
+  .listado1 {
+    padding-top: 1.5rem;
+  }
+  
+  .logoNavBar {
+    width: 2.5rem;
+    padding-left: 0.4rem;
+  }
+  
+  .imagenesPiePagina {
+    width: 2.8rem;
+    padding-left: 0.4rem;
+  }
+  
+  .espacio2 {
+    padding-top: 0.8rem;
+  }
+  
+  .botonContactoPiePagina {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    padding: 45px;
+  }
+  
+  .espacioPiePagina {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .margen {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  
+  .centrar {
+    text-align: center;
+  }
+  
+  .espacioEntreTestimonio {
+    padding: 2rem;
+  }
+  
+  .bajarTexto {
+    margin: 3rem;
+  }
+  
+  .masthead {
+    background: url("/img/fondoIndex.jpg")
+      no-repeat center;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .masthead1 {
+    color: black;
+    position: absolute;
+    bottom: 1rem;
+  
+    padding-right: 1.5rem;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    background-color: rgba(244, 210, 74, 0.3);
+  }
+  
+  .masthead2 {
+    color: black;
+    position: absolute;
+  
+    padding-right: 1.5rem;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    background-color: rgba(244, 210, 74, 0.3);
+  }
+  
+  .color-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: normal;
+  }
+  
+  .imagenEstas {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .subtitulo5 {
+    padding-top: 15px;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+  .subtitulo6 {
+    line-height: 0.7;
+    text-align: left;
+    font-size: 2.5rem;
+  }
+  
+  .subtitulo7 {
+    font-size: 1.2rem;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 25px;
+  }
+  
+  .subtitulo8 {
+    text-align: justify;
+    text-align: left;
+  }
+  .container {
+    display: flex;
+  }
+  
+  .column-left {
+    flex: 1;
+    align-self: stretch;
+  }
+  
+  .column-right {
+    flex: 1;
+    align-self: stretch;
+  }
+  
+  .subtitulo9 {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  .subtitulo10 {
+    font-size: 2.5rem;
+    line-height: 0.5;
+    text-align: left;
+  }
+  .subtitulo11 {
+    padding-top: 10px;
+    font-size: 1.3rem;
+    line-height: 1;
+    text-align: left;
+  }
+  .subtitulo12 {
+    font-size: 1.3rem;
+    line-height: 1;
+    text-align: left;
+  }
+  
+  @media screen and (min-width: 300px) {
+    .tituloPrincipal {
+      font-size: 1.1rem;
+      max-width: 55rem;
+    }
+    .masthead {
+      min-height: 40vh;
+    }
+    .subTituloPrincipal {
+      font-size: 0.7rem;
+      max-width: 70rem;
+      bottom: 2.35rem;
+    }
+    .logoPiePagina {
+      height: 50px;
+      width: 200px;
+    }
+    .subTituloPiePagina {
+      font-size: 1.5rem;
+    }
+    .contenidoPiePagina {
+      font-size: 1rem;
+    }
+    .correoPiePagina {
+      font-size: 0.89rem;
+    }
+    .subtitulo3 {
+      font-size: 1.7rem;
+    }
+    .subtitulo4 {
+      font-size: 0.8rem;
+    }
+  
+    .subtitulo13 {
+      font-size: 0.9em;
+    }
+    .subtitulo14 {
+      font-size: 1.5rem;
+    }
+  
+    .botonContactoImagenEstas {
+      text-align: center;
+    }
+  
+    .subtitulo15 {
+      font-size: 0.8rem;
+    }
+    .subtitulo16 {
+      font-size: 0.9rem;
+    }
+    .subtitulo17 {
+      font-size: 0.7rem;
+    }
+    .logoFormas {
+      height: 40;
+      width: 150px;
+    }
+  
+    .textoTestimonio {
+      font-size: 0.5rem;
+    }
+  
+    .subtitulo10 {
+      line-height: 0.9;
+    }
+    .tamanoCarta {
+      width: 251px;
+    }
+    .dosFotos {
+      width: 100%;
+      height: 90%;
+    }
+  }
+  
+  @media screen and (min-width: 400px) {
+    .tituloPrincipal {
+      font-size: 1.6rem;
+      max-width: 55rem;
+    }
+    .masthead {
+      min-height: 47vh;
+    }
+    .subTituloPrincipal {
+      font-size: 0.9rem;
+      max-width: 70rem;
+      bottom: 2.9rem;
+    }
+    .logoPiePagina {
+      height: 63px;
+      width: 300px;
+    }
+    .subTituloPiePagina {
+      font-size: 1.5rem;
+    }
+    .contenidoPiePagina {
+      font-size: 1rem;
+    }
+    .correoPiePagina {
+      font-size: 1rem;
+    }
+  
+    .subtitulo3 {
+      font-size: 2.1rem;
+    }
+    .subtitulo4 {
+      font-size: 1.2rem;
+    }
+    .subtitulo13 {
+      font-size: 1rem;
+    }
+    .subtitulo14 {
+      font-size: 2rem;
+    }
+  
+    .botonContactoImagenEstas {
+      text-align: center;
+    }
+  
+    .subtitulo15 {
+      font-size: 1rem;
+    }
+    .subtitulo16 {
+      font-size: 1rem;
+    }
+    .subtitulo17 {
+      font-size: 1rem;
+    }
+    .logoFormas {
+      height: 40;
+      width: 200px;
+    }
+  
+    .textoTestimonio {
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media screen and (min-width: 500px) {
+    .tituloPrincipal {
+      font-size: 2rem;
+      max-width: 55rem;
+    }
+    .masthead {
+      min-height: 52vh;
+    }
+    .subTituloPrincipal {
+      font-size: 1rem;
+      max-width: 70rem;
+      bottom: 3.4rem;
+    }
+    .subTituloPiePagina {
+      font-size: 1.6rem;
+    }
+    .contenidoPiePagina {
+      font-size: 1.3rem;
+    }
+    .correoPiePagina {
+      font-size: 1.3rem;
+    }
+  
+    .subtitulo3 {
+      font-size: 2.7rem;
+    }
+    .subtitulo4 {
+      font-size: 1.3rem;
+    }
+    .subtitulo13 {
+      font-size: 1.3rem;
+    }
+    .subtitulo14 {
+      font-size: 2.5rem;
+    }
+  
+    .botonContactoImagenEstas {
+      text-align: center;
+    }
+  
+    .subtitulo15 {
+      font-size: 1rem;
+    }
+    .subtitulo16 {
+      font-size: 1.5rem;
+    }
+    .subtitulo17 {
+      font-size: 1.2rem;
+    }
+    .logoFormas {
+      height: 63px;
+      width: 300px;
+    }
+  
+    .textoTestimonio {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (min-width: 576px) {
+    .tituloPrincipal {
+      font-size: 2.3rem;
+      max-width: 55rem;
+    }
+    .masthead {
+      min-height: 55vh;
+    }
+    .subTituloPrincipal {
+      font-size: 1.3rem;
+      max-width: 70rem;
+      bottom: 3.75rem;
+    }
+    .subtitulo3 {
+      font-size: 2.9rem;
+    }
+    .subtitulo4 {
+      font-size: 1.5rem;
+    }
+  
+    .subtitulo13 {
+      font-size: 1.5rem;
+    }
+    .subtitulo14 {
+      font-size: 3.5rem;
+    }
+    .dosFotos {
+      width: 100%;
+      height: 70%;
+    }
+  
+    .botonContactoImagenEstas {
+      text-align: center;
+    }
+  
+    .subtitulo15 {
+      font-size: 1.2rem;
+    }
+    .subtitulo16 {
+      font-size: 2rem;
+    }
+    .subtitulo17 {
+      font-size: 1.8rem;
+    }
+  
+    .textoTestimonio {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .tituloPrincipal {
+      font-size: 3rem;
+      max-width: 55rem;
+    }
+    .masthead {
+      min-height: 65vh;
+    }
+    .subTituloPrincipal {
+      font-size: 1.6rem;
+      max-width: 70rem;
+      bottom: 4.6rem;
+    }
+    .subtitulo3 {
+      font-size: 3rem;
+    }
+    .subtitulo4 {
+      font-size: 1.5rem;
+    }
+  
+    .botonContactoImagenEstas {
+      text-align: center;
+    }
+  
+    .subtitulo15 {
+      font-size: 1.2rem;
+    }
+    .subtitulo16 {
+      font-size: 2rem;
+    }
+    .subtitulo17 {
+      font-size: 1.8rem;
+    }
+  
+    .textoTestimonio {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .tituloPrincipal {
+      font-size: 4rem;
+      max-width: 65rem;
+    }
+    .masthead {
+      min-height: 80vh;
+    }
+    .subTituloPrincipal {
+      font-size: 1.8rem;
+      max-width: 70rem;
+      bottom: 5.8rem;
+    }
+  
+    .subtitulo3 {
+      font-size: 3.5rem;
+    }
+    .subtitulo4 {
+      font-size: 1.7rem;
+    }
+  
+    .botonContactoImagenEstas {
+      text-align: center;
+    }
+  
+    .subtitulo15 {
+      font-size: 1.5rem;
+    }
+    .subtitulo16 {
+      font-size: 3.5rem;
+    }
+    .subtitulo17 {
+      font-size: 2rem;
+    }
+  
+    .textoTestimonio {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .tituloPrincipal {
+      font-size: 5rem;
+      max-width: 70rem;
+    }
+    .masthead {
+      min-height: 90vh;
+    }
+    .subTituloPrincipal {
+      font-size: 2.1rem;
+      bottom: 7rem;
+      max-width: 70rem;
+    }
+    .correoPiePagina {
+      font-size: 1.2rem;
+    }
+    .contenidoPiePagina {
+      font-size: 1rem;
+    }
+    .imagenEstas {
+      max-height: 90%;
+      max-width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .tituloPrincipal {
+      font-size: 5rem;
+      max-width: 70rem;
+    }
+    .masthead {
+      min-height: 95vh;
+    }
+    .subTituloPrincipal {
+      font-size: 2.1rem;
+      max-width: 70rem;
+      bottom: 7rem;
+    }
+    .imagenEstas {
+      max-height: 75%;
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,287 @@
+.botonContacto {
+    padding-top: 3rem;
+    text-align: center;
+    padding: 45px;
+  }
+  
+  .piePagina {
+    background-color: rgba(244, 210, 74);
+  }
+  
+  .navBarPrincipal {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  }
+  
+  .whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 40px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+  }
+  
+  .whatsapp-icon {
+    margin-top: 13px;
+  }
+  
+  .letraEncabezado {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+  }
+  
+  .tamano11 {
+    font-size: 0.8rem;
+  }
+  
+  .tamano12 {
+    font-size: 0.9rem;
+  }
+  
+  .tamano13 {
+    font-size: 1.1rem;
+  }
+  
+  .tamano15 {
+    font-size: 1.5rem;
+  }
+  
+  .tamano19 {
+    font-size: 2rem;
+  }
+  
+  .tamano26 {
+    font-size: 3.5rem;
+  }
+  
+  .tamano52 {
+    font-size: 4rem;
+  }
+  
+  .letraRoboto {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .letraHeebo {
+    font-family: "Heebo", sans-serif;
+  }
+  
+  .logoNavBar {
+    width: 2.5rem;
+    padding-left: 0.4rem;
+  }
+  
+  .espacio2 {
+    padding-top: 0.8rem;
+  }
+  
+  .botonContactoPiePagina {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    padding: 45px;
+  }
+  
+  .espacioPiePagina {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .margen {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  
+  .imagenesPiePagina {
+    width: 2.8rem;
+    padding-left: 0.4rem;
+  }
+  
+  .margenSupInf {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .tituloIzquierda {
+    position: absolute;
+    left: 5%;
+    background-color: rgba(244, 210, 74, 0.3);
+    top: 30%;
+  }
+  
+  .centrar {
+    text-align: center;
+  }
+  
+  .masthead {
+    background: url("/img/fondoServicios.jpg")
+      no-repeat center;
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .masthead1 {
+    color: black;
+    position: absolute;
+    bottom: 1rem;
+  
+    padding-right: 1.5rem;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    background-color: rgba(244, 210, 74, 0.3);
+  }
+  
+  .color-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: normal;
+  }
+  
+  @media screen and (min-width: 300px) {
+    .tituloPrincipal {
+      font-size: 2rem;
+      max-width: 55rem;
+    }
+    .masthead {
+      min-height: 42vh;
+    }
+    .logoPiePagina {
+      height: 50px;
+      width: 200px;
+    }
+    .subTituloPiePagina {
+      font-size: 1.5rem;
+    }
+    .contenidoPiePagina {
+      font-size: 1rem;
+    }
+    .correoPiePagina {
+      font-size: 0.89rem;
+    }
+    .logoFormas {
+      height: 40;
+      width: 150px;
+    }
+  }
+  
+  @media screen and (min-width: 400px) {
+    .tituloPrincipal {
+      font-size: 2rem;
+      max-width: 55rem;
+    }
+    .masthead {
+      min-height: 47vh;
+    }
+    .logoPiePagina {
+      height: 63px;
+      width: 300px;
+    }
+    .subTituloPiePagina {
+      font-size: 1.5rem;
+    }
+    .contenidoPiePagina {
+      font-size: 1rem;
+    }
+    .correoPiePagina {
+      font-size: 1rem;
+    }
+    .logoFormas {
+      height: 40;
+      width: 200px;
+    }
+  }
+  
+  @media screen and (min-width: 500px) {
+    .tituloPrincipal {
+      font-size: 2.3rem;
+      max-width: 55rem;
+    }
+    .masthead {
+      min-height: 48vh;
+    }
+    .subTituloPiePagina {
+      font-size: 1.6rem;
+    }
+    .contenidoPiePagina {
+      font-size: 1.3rem;
+    }
+    .correoPiePagina {
+      font-size: 1.3rem;
+    }
+    .logoFormas {
+      height: 63px;
+      width: 300px;
+    }
+    .imagenAcordion {
+      height: 18rem;
+      width: 30rem;
+    }
+  }
+  
+  @media screen and (min-width: 576px) {
+    .tituloPrincipal {
+      font-size: 2.3rem;
+      max-width: 55rem;
+    }
+    .masthead {
+      min-height: 50vh;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .tituloPrincipal {
+      font-size: 2.3rem;
+      max-width: 55rem;
+    }
+    .masthead {
+      min-height: 55vh;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .tituloPrincipal {
+      font-size: 3.2rem;
+      max-width: 65rem;
+    }
+    .masthead {
+      min-height: 65vh;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .tituloPrincipal {
+      font-size: 3.7rem;
+      max-width: 70rem;
+    }
+    .masthead {
+      min-height: 70vh;
+    }
+    .correoPiePagina {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media screen and (min-width: 1400px) {
+    .tituloPrincipal {
+      font-size: 3.7rem;
+      max-width: 70rem;
+    }
+    .masthead {
+      min-height: 80vh;
+    }
+    .imagenAcordion {
+      height: 18rem;
+      width: 30rem;
+    }
+  }
